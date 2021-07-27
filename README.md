@@ -6,7 +6,7 @@ https://rdrr.io/cran/RSAGA/man/wind.shelter.html
 
 #### NB! The tolerance and direction works different from the RSAGA. The python script uses a angle range instead of direction and tolerance, i.e.: 
 
-def windshelter_prep(radius, direction, tolerance, cellsize): # 0 degrees equals East (90 degrees) for direction and tolerance.
+def windshelter_prep(radius, direction, tolerance, cellsize): # 0 equals East (90 degrees) for direction and tolerance.
 
 (direction = 0, tolerance = 90) would equal the angle range from 90 degrees (east) to 180 degrees (south)
 
