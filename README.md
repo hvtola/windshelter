@@ -4,7 +4,7 @@ This python script reimplements the Wind Shelter Index proposed by Plattner et a
 See in depth description here:
 https://rdrr.io/cran/RSAGA/man/wind.shelter.html
 
-#### NB! The tolerance and direction works different from the RSAGA. In this python script uses a angle range instead, i.e.: 
+#### NB! The tolerance and direction works different from the RSAGA. The python script uses a angle range instead of direction and tolerance, i.e.: 
 
 def windshelter_prep(radius, direction, tolerance, cellsize): # 0 degrees equals East (90 degrees) for direction and tolerance.
 
