@@ -3,7 +3,7 @@ from windshelter import windshelter_window
 # --- Working directory
 wd = r'D:\tmp\windshelter'
 
-# --- Input files
+# --- Input files - see folder example_data
 dem = r'D:\GeirangerDTM\dtm10_clip.tif' # 792x800
 
 
